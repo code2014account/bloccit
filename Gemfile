@@ -8,9 +8,12 @@ source 'https://rubygems.org'
    gem 'pg'
  end
 
+
+
  # #2
  group :development do
    gem 'sqlite3'
+   gem 'pry-rails'
  end
 
  group :development, :test do
